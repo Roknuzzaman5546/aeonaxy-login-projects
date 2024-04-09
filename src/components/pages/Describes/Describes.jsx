@@ -52,7 +52,7 @@ const Describes = () => {
                 <h2 className="text-3xl font-bold text-black text-center mb-2">Which describes you best</h2>
                 <p className="text-center text-sm">This will help us personalize your experience</p>
                 {/* describes selector section */}
-                <div className=" flex flex-col items-center">
+                <div className=" flex flex-col items-center mt-10">
                     <div className={select1 ? `w-[460px] text-black bg-white btn mx-auto border cursor-pointer h-12 mt-3` : `w-[460px] text-black bg-white btn mx-auto border border-yellow-500 btn-warning cursor-pointer h-12 mt-3`} onClick={handleSelect1}>
                         <h1 className="text-center text-gray-500"> <span className=" text-black">Student</span> or son to be enrolled</h1>
                     </div>
