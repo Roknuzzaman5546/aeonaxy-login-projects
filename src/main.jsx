@@ -5,13 +5,18 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from "react-router-dom";
-import Describes from './components/pages/Describes';
+import Interested from './components/pages/Interested/Interested';
+import Describes from './components/pages/Describes/Describes';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Describes></Describes>
   },
+  {
+    path: '/interested',
+    element: <Interested></Interested>
+  }
 ]);
 
 ReactDOM.createRoot(document.getElementById('root')).render(
